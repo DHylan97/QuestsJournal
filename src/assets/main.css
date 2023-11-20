@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'Anirb';
+  src: url(..\fonts\anirb___.ttf);
+}
+
+* {
+  color: #916017;
+}
+
+a,
+a:hover {
+  color: #916017;
+}
+
+#form {
+  margin: 100px;
+}
+
+body {
+  font-family: 'Anirb';
+  background-image: url(..\images\skyrimland.jpg);
+}
+
+div.card.mb-3.formul {
+  margin: 0;
+}
+
+.formul {
+  background-image: url(..\images\maxresdefault.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+label {
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em
+}
+
+label,
+input.form-control,
+textarea.form-control,
+select.form-control{
+  margin: 15px;
+}
+
+textarea.form-control {
+  width: 400px;
+  height: 150px;
+}
+
+input#date.form-control {
+  width: 200px;
+}
+
+input#name.form-control, select#type.form-control {
+  width: 300px;
+}
+
+#pancart {
+  padding: 50px;
+  backdrop-filter: blur(5px);
+}
+
+.card {
+  margin: 10px;
+}
+
+div.card {
+  margin-left: 315px;
+}
+
+button {
+
+}
+
+.nav-link,
+.nav-link:hover {
+  color: #916017;
+}
+
